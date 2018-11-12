@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+if (array_key_exists("${1:array_key}", \$_GET) && \$_GET["${1:array_key}"] == "${2:array_value}"){
+	${3:# code}
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>getif</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
