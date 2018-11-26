@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 json_encode(${1:var}, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE)
-Hello,  is a ${2:snippet}.
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>json_pretty</tabTrigger>
