@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+\$${1:my_variable} = (array_key_exists("${2:key}", \$${3:_REQUEST}) && \$${3:_REQUEST}["${2:key}"] != ${4:""} ? \$${3:_REQUEST}["${2:key}"] : ${5:NULL});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>request_var</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.php</scope>
+</snippet>
